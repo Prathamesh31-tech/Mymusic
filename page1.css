@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+    body{
+    background-color: rgb(10, 10, 10);
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background-image: url('background.avif');
+    background-size: cover;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    height: 84vh;
+}
+ *
+
+.xcontainer{
+    margin-top: 50px;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    width: 85%;
+    height: 69vh;
+    border-radius: 34px;
+    background: fixed;
+    box-shadow: 0px 0px 10px blue;
+}
+
+.para{
+    margin-left: 20px;
+    width: 70vw;
+    margin-top: 50px;
+    height: 60vh;
+    background: fixed;
+}
+nav{
+    font-family: 'ubuntu',sans-serif;
+    font-family: "Varela Round", sans-serif;
+    position: sticky;
+    top: 0%;
+    background-color: black;
+} 
+
+nav ul{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+   display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 1.3rem;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+#home{
+    font-family: "Varela Round", sans-serif;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    
+}
